@@ -91,10 +91,17 @@ body{
   vertical-align: top;
   float: right;
   width: 20%;
-  padding-right: 2%;
+  padding: 2%;
+  border-style: double;
+  margin-right: 1%;
+
 }
 /*---------------------------------*/
-
+.afi{
+  margin-top: 100px;
+  border-style: inset;
+  padding: 10px;
+}
 
 /*-------------------------------------------*/
 /*-------------fotter用----------------------*/
