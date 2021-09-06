@@ -5,20 +5,28 @@
 
 /*----------------header用------------------*/
 header{
-  height: 50px;
+  height: 150px;
   width: 100%;
-  background-color: White;
+  margin-bottom: 10px;
 }
 .nav-list{
-  height: 100%;
+  height: 40%;
   width: 100%;
+  background-color: snow;
 }
 .left{
-  margin-top: 10px;
-  margin-left: 10px;
   float: left;
-  width: 20%
+  width: 35%;
+  height: 100%;
+  padding-top: 1%;
+  padding-left: 1%;
 }
+.logo{
+  height: 100%;
+  width: 200px;
+}
+
+
 .right{
   margin-top: 10px;
   float: right;
@@ -28,8 +36,37 @@ header{
   text-decoration: none;
 }
 
-.right a:hover{
+.right a:hover {
   background-color: gray;
+}
+
+/*
+項目リスト
+ */
+.member{
+  padding-top: 2%;
+  height: 40%;
+  width: 100%;
+  /*margin-left: 5%;
+  margin-right: 5%;*/
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: white;
+  padding-bottom: 2%;
+}
+
+.member_list{
+  height: 100%;
+  width: 15%;
+  float: left;
+  /*background-color: lightcyan;*/
+  text-align: center;
+}
+.member_list a{
+  text-decoration: none;
+}
+.member_list a:hover{
+  /*background-color: gray;*/
 }
 
 .twitter_icon{
@@ -40,13 +77,13 @@ header{
 /*----------------body-----------------------*/
 body{
   height: 100%;
-  background-color: #51EBFF;
+  background-color: snow;
   margin:auto;
 }
+/*
 .main{
   width: 100%;
   position: relative;
-  height: 100%;
   min-height: 100px;
 }
 .content{
@@ -64,12 +101,29 @@ body{
 }
 /*---------------------------------*/
 
+.slider{
+  margin-top: 5%;
+  margin-left: 15%;
+}
+.list{
+  margin-left: 15%;
+  margin-bottom: 10%;
+}
+.button{
+  width:  100%;
+}
+
+.youtube{
+  margin-left: 25%;
+}
 /*-----------gamelist--------------*/
 .game-list{
   display: inline-block;
   vertical-align: top;
-  width: 70%;
+  width: 80%;
   top: 0;
+  padding-left: 7%;
+  padding-top: 10%;
 }
 
 .game-list table{
@@ -93,22 +147,21 @@ body{
   width: 20%;
   padding: 2%;
   border-style: double;
-  margin-right: 1%;
+  margin-right: 7%;
 
 }
 /*---------------------------------*/
 .afi{
-  margin-top: 100px;
-  border-style: inset;
+  margin-top: 20px;
   padding: 10px;
 }
 
 /*-------------------------------------------*/
 /*-------------fotter用----------------------*/
 footer{
-  background-color: #51EBFF;
+  background-color: cornsilk;
   width: 100%;
-  height: 100px;
+  height: 50px;
   text-align: center;
   position: fixed;
   bottom: 0;
