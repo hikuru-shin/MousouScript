@@ -1,0 +1,19 @@
+.achieve{
+  font-size: 0.5em;
+}
+table{
+  margin-left: 15%;
+}
+td{
+  text-align: center;
+  vertical-align: top;
+}
+td img{
+  margin-top: 1em;
+}
+.mail{
+  text-decoration: underline;
+}
+table .kannren{
+  margin-top: 20%;
+}

@@ -1,0 +1,15 @@
+.achieve{
+  font-size: 0.5em;
+}
+table{
+  margin-top: 10%;
+  margin-left: 15%;
+  border-spacing: 5em 5em;
+}
+td{
+  text-align: center;
+  vertical-align: top;
+}
+.mail{
+  text-decoration: underline;
+}
